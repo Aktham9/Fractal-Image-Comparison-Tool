@@ -67,6 +67,7 @@ pip install pillow numpy
    
  Here’s an example of how to use the script:
 - Example file paths (replace with your actual image file paths)
+  
 image_path1 = 'image1.png'
 image_path2 = 'image2.png'
 
@@ -75,6 +76,7 @@ compare_images(image_path1, image_path2, tolerance=10)
 
 
  Output:
+ 
 Number of black pixels in image1.png with tolerance 10: 1200
 Number of black pixels in image2.png with tolerance 10: 1180
 Number of differing pixels: 20
