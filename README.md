@@ -78,8 +78,8 @@ pip install pillow numpy
 compare_images(image_path1, image_path2, tolerance=10)
 
 
-    Output:
-          ```bash
+  Output:
+     ```bash
             Number of black pixels in image1.png with tolerance 10: 1200
             Number of black pixels in image2.png with tolerance 10: 1180
             Number of differing pixels: 20
