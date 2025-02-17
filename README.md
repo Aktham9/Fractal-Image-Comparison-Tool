@@ -92,6 +92,11 @@ compare_images(image_path1, image_path2, tolerance=10)
             Difference image saved as 'difference_image.png'.
 
 
+
+
+
+
+
 6. ** Code Explanation**:
 Key Functions
 
