@@ -70,7 +70,7 @@ pip install pillow numpy
   ```bash
 image_path1 = 'image1.png'
 image_path2 = 'image2.png'
-
+```
 - Compare the images with a tolerance of 10
 compare_images(image_path1, image_path2, tolerance=10)
 
