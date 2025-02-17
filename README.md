@@ -67,26 +67,29 @@ pip install pillow numpy
    
  Here’s an example of how to use the script:
 - Example file paths (replace with your actual image file paths)
+  
   ```bash
-image_path1 = 'image1.png'
-image_path2 = 'image2.png'
-```
+      image_path1 = 'image1.png'
+      image_path2 = 'image2.png'
+
+
+
 - Compare the images with a tolerance of 10
 compare_images(image_path1, image_path2, tolerance=10)
 
 
  Output:
  ```bash
-Number of black pixels in image1.png with tolerance 10: 1200
-Number of black pixels in image2.png with tolerance 10: 1180
-Number of differing pixels: 20
-Total number of pixels in Image 1: 262144
-Number of black pixels in Image 1: 1200
-Total number of pixels in Image 2: 262144
-Number of black pixels in Image 2: 1180
-Total difference in black pixels: 20
-The images are different in the spatial distribution of black pixels.
-Difference image saved as 'difference_image.png'.
+            Number of black pixels in image1.png with tolerance 10: 1200
+            Number of black pixels in image2.png with tolerance 10: 1180
+            Number of differing pixels: 20
+            Total number of pixels in Image 1: 262144
+            Number of black pixels in Image 1: 1200
+            Total number of pixels in Image 2: 262144
+            Number of black pixels in Image 2: 1180
+            Total difference in black pixels: 20
+            The images are different in the spatial distribution of black pixels.
+            Difference image saved as 'difference_image.png'.
 
 
 6. ** Code Explanation**:
